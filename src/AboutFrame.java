@@ -45,6 +45,11 @@ public class AboutFrame extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea2);
 
         close.setText("Close");
+        close.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                closeActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -89,6 +94,13 @@ public class AboutFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void closeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_closeActionPerformed
+        setDefaultCloseOperation(AboutFrame.DISPOSE_ON_CLOSE);
+        {
+            dispose();
+        }
+    }//GEN-LAST:event_closeActionPerformed
 
     /**
      * @param args the command line arguments
