@@ -1180,7 +1180,7 @@ public class Calendar extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void EditButton01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EditButton01ActionPerformed
-        EditWindow frm = new EditWindow();
+        Details1 frm = new Details1();
         frm.setVisible(true);
     }//GEN-LAST:event_EditButton01ActionPerformed
 
@@ -1188,7 +1188,7 @@ public class Calendar extends javax.swing.JFrame {
        
     }//GEN-LAST:event_EditButton37ActionPerformed
     private void EditButton02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_EditButton02ActionPerformed
-        EditWindow frm = new EditWindow();
+        Details1 frm = new Details1();
         frm.setVisible(true);
     }//GEN-LAST:event_EditButton02ActionPerformed
        
